@@ -18,6 +18,5 @@ include_directories(src)
 include_directories(SYSTEM src/external)
 
 add_subdirectory(src/rest)
-add_subdirectory(src/ws)
 add_subdirectory(src/util)
 add_subdirectory(src/example)
