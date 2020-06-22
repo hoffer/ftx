@@ -18,6 +18,6 @@ int main()
     auto acct = client.get_account_info();
     std::cout << acct << "\n\n";
 
-    auto ord = client.place_order("BTC-PERP", "buy", 10, 0.01);
-    std::cout << ord << "\n\n";
+    //auto ord = client.place_order("BTC-PERP", "buy", 10, 0.01);
+    //std::cout << ord << "\n\n";
 }
